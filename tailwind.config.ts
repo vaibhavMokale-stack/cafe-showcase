@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +55,13 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				cafe: {
+					warm: 'hsl(var(--cafe-warm))',
+					'warm-light': 'hsl(var(--cafe-warm-light))',
+					neutral: 'hsl(var(--cafe-neutral))',
+					text: 'hsl(var(--cafe-text))',
+					'text-light': 'hsl(var(--cafe-text-light))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
