@@ -25,7 +25,7 @@ const Home = () => {
               <Link to="/menu">View Menu</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-foreground font-open-sans font-semibold">
-              <a href="tel:+1234567890" aria-label="Call to book a table">Call to Book</a>
+              <a href="tel:+1234567890" aria-label="Call to book a table" style = {{color: "Black"}} >Call to Book</a>
             </Button>
           </div>
         </div>
